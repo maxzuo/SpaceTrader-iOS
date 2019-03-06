@@ -2,11 +2,12 @@
 //  ViewController.swift
 //  Space Trader
 //
-//  Created by Zhaohui Li on 3/6/19.
+//  Created by Max Zuo on 3/6/19.
 //  Copyright © 2019 Max Zuo. All rights reserved.
 //
 
 import UIKit
+import Firebase
 
 class ViewController: UIViewController {
 
