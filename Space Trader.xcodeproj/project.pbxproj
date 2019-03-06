@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A4199E81222FF82D0099928F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4199E80222FF82D0099928F /* AppDelegate.swift */; };
+		A4199E83222FF82D0099928F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4199E82222FF82D0099928F /* ViewController.swift */; };
+		A4199E86222FF82D0099928F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4199E84222FF82D0099928F /* Main.storyboard */; };
+		A4199E89222FF82D0099928F /* Space_Trader.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A4199E87222FF82D0099928F /* Space_Trader.xcdatamodeld */; };
+		A4199E8B222FF82F0099928F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4199E8A222FF82F0099928F /* Assets.xcassets */; };
+		A4199E8E222FF82F0099928F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4199E8C222FF82F0099928F /* LaunchScreen.storyboard */; };
+		A4199E99222FF8300099928F /* Space_TraderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4199E98222FF8300099928F /* Space_TraderTests.swift */; };
+		A4199EA4222FF8300099928F /* Space_TraderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4199EA3222FF8300099928F /* Space_TraderUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A4199E95222FF8300099928F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4199E75222FF82D0099928F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4199E7C222FF82D0099928F;
+			remoteInfo = "Space Trader";
+		};
+		A4199EA0222FF8300099928F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4199E75222FF82D0099928F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4199E7C222FF82D0099928F;
+			remoteInfo = "Space Trader";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A4199E7D222FF82D0099928F /* Space Trader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Space Trader.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4199E80222FF82D0099928F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A4199E82222FF82D0099928F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A4199E85222FF82D0099928F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A4199E88222FF82D0099928F /* Space_Trader.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Space_Trader.xcdatamodel; sourceTree = "<group>"; };
+		A4199E8A222FF82F0099928F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A4199E8D222FF82F0099928F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A4199E8F222FF82F0099928F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4199E94222FF8300099928F /* Space TraderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Space TraderTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4199E98222FF8300099928F /* Space_TraderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Space_TraderTests.swift; sourceTree = "<group>"; };
+		A4199E9A222FF8300099928F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4199E9F222FF8300099928F /* Space TraderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Space TraderUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4199EA3222FF8300099928F /* Space_TraderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Space_TraderUITests.swift; sourceTree = "<group>"; };
+		A4199EA5222FF8300099928F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4199E7A222FF82D0099928F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4199E91222FF8300099928F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4199E9C222FF8300099928F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A4199E74222FF82D0099928F = {
+			isa = PBXGroup;
+			children = (
+				A4199E7F222FF82D0099928F /* Space Trader */,
+				A4199E97222FF8300099928F /* Space TraderTests */,
+				A4199EA2222FF8300099928F /* Space TraderUITests */,
+				A4199E7E222FF82D0099928F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A4199E7E222FF82D0099928F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4199E7D222FF82D0099928F /* Space Trader.app */,
+				A4199E94222FF8300099928F /* Space TraderTests.xctest */,
+				A4199E9F222FF8300099928F /* Space TraderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4199E7F222FF82D0099928F /* Space Trader */ = {
+			isa = PBXGroup;
+			children = (
+				A4199E80222FF82D0099928F /* AppDelegate.swift */,
+				A4199E82222FF82D0099928F /* ViewController.swift */,
+				A4199E84222FF82D0099928F /* Main.storyboard */,
+				A4199E8A222FF82F0099928F /* Assets.xcassets */,
+				A4199E8C222FF82F0099928F /* LaunchScreen.storyboard */,
+				A4199E8F222FF82F0099928F /* Info.plist */,
+				A4199E87222FF82D0099928F /* Space_Trader.xcdatamodeld */,
+			);
+			path = "Space Trader";
+			sourceTree = "<group>";
+		};
+		A4199E97222FF8300099928F /* Space TraderTests */ = {
+			isa = PBXGroup;
+			children = (
+				A4199E98222FF8300099928F /* Space_TraderTests.swift */,
+				A4199E9A222FF8300099928F /* Info.plist */,
+			);
+			path = "Space TraderTests";
+			sourceTree = "<group>";
+		};
+		A4199EA2222FF8300099928F /* Space TraderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A4199EA3222FF8300099928F /* Space_TraderUITests.swift */,
+				A4199EA5222FF8300099928F /* Info.plist */,
+			);
+			path = "Space TraderUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A4199E7C222FF82D0099928F /* Space Trader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4199EA8222FF8300099928F /* Build configuration list for PBXNativeTarget "Space Trader" */;
+			buildPhases = (
+				A4199E79222FF82D0099928F /* Sources */,
+				A4199E7A222FF82D0099928F /* Frameworks */,
+				A4199E7B222FF82D0099928F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Space Trader";
+			productName = "Space Trader";
+			productReference = A4199E7D222FF82D0099928F /* Space Trader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A4199E93222FF8300099928F /* Space TraderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4199EAB222FF8300099928F /* Build configuration list for PBXNativeTarget "Space TraderTests" */;
+			buildPhases = (
+				A4199E90222FF8300099928F /* Sources */,
+				A4199E91222FF8300099928F /* Frameworks */,
+				A4199E92222FF8300099928F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4199E96222FF8300099928F /* PBXTargetDependency */,
+			);
+			name = "Space TraderTests";
+			productName = "Space TraderTests";
+			productReference = A4199E94222FF8300099928F /* Space TraderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A4199E9E222FF8300099928F /* Space TraderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4199EAE222FF8300099928F /* Build configuration list for PBXNativeTarget "Space TraderUITests" */;
+			buildPhases = (
+				A4199E9B222FF8300099928F /* Sources */,
+				A4199E9C222FF8300099928F /* Frameworks */,
+				A4199E9D222FF8300099928F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4199EA1222FF8300099928F /* PBXTargetDependency */,
+			);
+			name = "Space TraderUITests";
+			productName = "Space TraderUITests";
+			productReference = A4199E9F222FF8300099928F /* Space TraderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4199E75222FF82D0099928F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Max Zuo";
+				TargetAttributes = {
+					A4199E7C222FF82D0099928F = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					A4199E93222FF8300099928F = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = A4199E7C222FF82D0099928F;
+					};
+					A4199E9E222FF8300099928F = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = A4199E7C222FF82D0099928F;
+					};
+				};
+			};
+			buildConfigurationList = A4199E78222FF82D0099928F /* Build configuration list for PBXProject "Space Trader" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A4199E74222FF82D0099928F;
+			productRefGroup = A4199E7E222FF82D0099928F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4199E7C222FF82D0099928F /* Space Trader */,
+				A4199E93222FF8300099928F /* Space TraderTests */,
+				A4199E9E222FF8300099928F /* Space TraderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A4199E7B222FF82D0099928F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4199E8E222FF82F0099928F /* LaunchScreen.storyboard in Resources */,
+				A4199E8B222FF82F0099928F /* Assets.xcassets in Resources */,
+				A4199E86222FF82D0099928F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4199E92222FF8300099928F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4199E9D222FF8300099928F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4199E79222FF82D0099928F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4199E83222FF82D0099928F /* ViewController.swift in Sources */,
+				A4199E89222FF82D0099928F /* Space_Trader.xcdatamodeld in Sources */,
+				A4199E81222FF82D0099928F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4199E90222FF8300099928F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4199E99222FF8300099928F /* Space_TraderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4199E9B222FF8300099928F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4199EA4222FF8300099928F /* Space_TraderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A4199E96222FF8300099928F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4199E7C222FF82D0099928F /* Space Trader */;
+			targetProxy = A4199E95222FF8300099928F /* PBXContainerItemProxy */;
+		};
+		A4199EA1222FF8300099928F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4199E7C222FF82D0099928F /* Space Trader */;
+			targetProxy = A4199EA0222FF8300099928F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A4199E84222FF82D0099928F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4199E85222FF82D0099928F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A4199E8C222FF82F0099928F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4199E8D222FF82F0099928F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A4199EA6222FF8300099928F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A4199EA7222FF8300099928F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A4199EA9222FF8300099928F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BK556GX24U;
+				INFOPLIST_FILE = "Space Trader/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.liZUOrd.Space-Trader";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A4199EAA222FF8300099928F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BK556GX24U;
+				INFOPLIST_FILE = "Space Trader/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.liZUOrd.Space-Trader";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A4199EAC222FF8300099928F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BK556GX24U;
+				INFOPLIST_FILE = "Space TraderTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.liZUOrd.Space-TraderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Space Trader.app/Space Trader";
+			};
+			name = Debug;
+		};
+		A4199EAD222FF8300099928F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BK556GX24U;
+				INFOPLIST_FILE = "Space TraderTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.liZUOrd.Space-TraderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Space Trader.app/Space Trader";
+			};
+			name = Release;
+		};
+		A4199EAF222FF8300099928F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BK556GX24U;
+				INFOPLIST_FILE = "Space TraderUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.liZUOrd.Space-TraderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Space Trader";
+			};
+			name = Debug;
+		};
+		A4199EB0222FF8300099928F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BK556GX24U;
+				INFOPLIST_FILE = "Space TraderUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.liZUOrd.Space-TraderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Space Trader";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4199E78222FF82D0099928F /* Build configuration list for PBXProject "Space Trader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4199EA6222FF8300099928F /* Debug */,
+				A4199EA7222FF8300099928F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4199EA8222FF8300099928F /* Build configuration list for PBXNativeTarget "Space Trader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4199EA9222FF8300099928F /* Debug */,
+				A4199EAA222FF8300099928F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4199EAB222FF8300099928F /* Build configuration list for PBXNativeTarget "Space TraderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4199EAC222FF8300099928F /* Debug */,
+				A4199EAD222FF8300099928F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4199EAE222FF8300099928F /* Build configuration list for PBXNativeTarget "Space TraderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4199EAF222FF8300099928F /* Debug */,
+				A4199EB0222FF8300099928F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A4199E87222FF82D0099928F /* Space_Trader.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A4199E88222FF82D0099928F /* Space_Trader.xcdatamodel */,
+			);
+			currentVersion = A4199E88222FF82D0099928F /* Space_Trader.xcdatamodel */;
+			path = Space_Trader.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A4199E75222FF82D0099928F /* Project object */;
+}
