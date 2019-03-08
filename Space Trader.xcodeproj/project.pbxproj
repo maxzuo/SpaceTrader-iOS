@@ -27,6 +27,8 @@
 		A4199E99222FF8300099928F /* Space_TraderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4199E98222FF8300099928F /* Space_TraderTests.swift */; };
 		A4199EA4222FF8300099928F /* Space_TraderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4199EA3222FF8300099928F /* Space_TraderUITests.swift */; };
 		A4CCDB632232482A00546068 /* SpaceBody.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CCDB622232482A00546068 /* SpaceBody.swift */; };
+		A4CCDB6522324D0000546068 /* TechLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CCDB6422324D0000546068 /* TechLevel.swift */; };
+		A4CCDB6722324F3100546068 /* ResourceLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CCDB6622324F3100546068 /* ResourceLevel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +78,8 @@
 		A4199EA3222FF8300099928F /* Space_TraderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Space_TraderUITests.swift; sourceTree = "<group>"; };
 		A4199EA5222FF8300099928F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A4CCDB622232482A00546068 /* SpaceBody.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceBody.swift; sourceTree = "<group>"; };
+		A4CCDB6422324D0000546068 /* TechLevel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechLevel.swift; sourceTree = "<group>"; };
+		A4CCDB6622324F3100546068 /* ResourceLevel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourceLevel.swift; sourceTree = "<group>"; };
 		B5D61F99CC8C47C1639510D4 /* Pods_Space_TraderUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Space_TraderUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA4C0A6E96BACB3949161FC5 /* Pods-Space TraderUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Space TraderUITests.release.xcconfig"; path = "Target Support Files/Pods-Space TraderUITests/Pods-Space TraderUITests.release.xcconfig"; sourceTree = "<group>"; };
 		CCDE1143B3AFADD49618E55B /* Pods-Space Trader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Space Trader.release.xcconfig"; path = "Target Support Files/Pods-Space Trader/Pods-Space Trader.release.xcconfig"; sourceTree = "<group>"; };
@@ -131,6 +135,8 @@
 				A408A2EC22305D8600C913D1 /* SolarSystem.swift */,
 				A408A2F02230615000C913D1 /* Sun.swift */,
 				A408A2EE22305ED700C913D1 /* Planet.swift */,
+				A4CCDB6622324F3100546068 /* ResourceLevel.swift */,
+				A4CCDB6422324D0000546068 /* TechLevel.swift */,
 				A408A2EA2230567D00C913D1 /* Player.swift */,
 			);
 			path = Entities;
@@ -468,6 +474,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4CCDB6722324F3100546068 /* ResourceLevel.swift in Sources */,
 				A4199E83222FF82D0099928F /* ViewController.swift in Sources */,
 				A408A2E82230565200C913D1 /* Universe.swift in Sources */,
 				A408A2E62230547400C913D1 /* Game.swift in Sources */,
@@ -475,6 +482,7 @@
 				A4CCDB632232482A00546068 /* SpaceBody.swift in Sources */,
 				A4199E89222FF82D0099928F /* Space_Trader.xcdatamodeld in Sources */,
 				A408A2EB2230567D00C913D1 /* Player.swift in Sources */,
+				A4CCDB6522324D0000546068 /* TechLevel.swift in Sources */,
 				A408A2E4223006FC00C913D1 /* Repository.swift in Sources */,
 				A4199E81222FF82D0099928F /* AppDelegate.swift in Sources */,
 				A408A2E22230055D00C913D1 /* Model.swift in Sources */,

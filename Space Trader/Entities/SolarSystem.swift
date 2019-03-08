@@ -11,10 +11,11 @@ import Foundation
 class SolarSystem: Hashable, SpaceBody {
     
     public private(set) var name: String
-    public private(set) var planets: Set<Planet>
-    public private(set) var sun: Sun = Sun(size: nil)
+    public let planets: Set<Planet>
+    public private(set) var sun: Sun = Sun(radius: nil)
     public private(set) var pos: Coordinate = (0, 0)
     public private(set) var radius: Float = 0
+    public static let BOUNDS: Coordinate = (100, 100)
     
     public var hashValue: Int {
         get {
@@ -43,9 +44,14 @@ class SolarSystem: Hashable, SpaceBody {
     
     private func instantiatePlanets() {
         
+        for _ in 1...Int.random(in: 5...10) {
+            addPlanet(planets: self.planets)
+        }
     }
     
-    
+    private func addPlanet(planets: Set<Planet>) {
+        planets.insert(Planet(sunSize: self.sun.radius, planets: self.planets, solarSystem: self))
+    }
     
     private func setPos(systems: Set<SolarSystem>) -> Coordinate {
         var radius = Float.random(in: 2...10)
