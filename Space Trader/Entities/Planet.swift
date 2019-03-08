@@ -10,7 +10,7 @@ import Foundation
 
 class Planet: Hashable {
     
-    public private(set) var pos: (x: Float, y: Float)
+    public private(set) var pos: Coordinate
     public private(set) var name: String
     
     public var hashValue: Int {
@@ -19,7 +19,7 @@ class Planet: Hashable {
         }
     }
     
-    public init (name: String, pos: (x: Float, y: Float)) {
+    public init (name: String, pos: Coordinate) {
         self.name = name
         self.pos = pos
     }

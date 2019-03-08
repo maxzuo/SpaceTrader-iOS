@@ -10,12 +10,10 @@ import Foundation
 
 class Sun {
     
-    public private(set) var size: Int;
-    public static let MAXSIZE: Int = 15;
+    public private(set) var size: Int
+    public static let MAXSIZE: Int = 15
     
-    public init(size: Int? = Int.random(in: 1...MAXSIZE)) {
-        if let size_unwrapped = size {
-            self.size = size_unwrapped
-        }
+    public init(size: Int! = Int.random(in: 1...MAXSIZE)) {
+        self.size = size
     }
 }

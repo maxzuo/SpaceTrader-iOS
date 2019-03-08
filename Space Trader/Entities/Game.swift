@@ -52,4 +52,11 @@ class Game {
         self.gameDifficulty = difficulty
     }
     
+    /*
+     Get the current planet from universe
+     */
+    public func getCurrentPlanet() {
+        return self.universe.currentPlanet
+    }
+    
 }

@@ -11,12 +11,8 @@ import Firebase
 
 class Model {
     
-    private var instance: Model = Model();
-    private var repo: Repository;
-    
-    public func getModel() -> Model {
-        return self.instance;
-    }
+    public private(set) static var instance: Model = Model();
+    public private(set) var repo: Repository;
     
     private init() {
         self.repo = Repository()
