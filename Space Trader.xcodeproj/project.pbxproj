@@ -145,6 +145,7 @@
 		A408A2F2223066BE00C913D1 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				A4199E80222FF82D0099928F /* AppDelegate.swift */,
 				A408A2E12230055C00C913D1 /* Model.swift */,
 				A408A2E3223006FC00C913D1 /* Repository.swift */,
 			);
@@ -176,10 +177,9 @@
 		A4199E7F222FF82D0099928F /* Space Trader */ = {
 			isa = PBXGroup;
 			children = (
+				A4BA4FD422360A6F00B254F8 /* View */,
 				A408A2E92230565700C913D1 /* Entities */,
 				A408A2F2223066BE00C913D1 /* Model */,
-				A4199E80222FF82D0099928F /* AppDelegate.swift */,
-				A4199E82222FF82D0099928F /* ViewController.swift */,
 				A4199E84222FF82D0099928F /* Main.storyboard */,
 				A4199E8A222FF82F0099928F /* Assets.xcassets */,
 				A4199E8C222FF82F0099928F /* LaunchScreen.storyboard */,
@@ -205,6 +205,14 @@
 				A4199EA5222FF8300099928F /* Info.plist */,
 			);
 			path = "Space TraderUITests";
+			sourceTree = "<group>";
+		};
+		A4BA4FD422360A6F00B254F8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A4199E82222FF82D0099928F /* ViewController.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		BB74BC6A609B9074E0B60B1D /* Frameworks */ = {
