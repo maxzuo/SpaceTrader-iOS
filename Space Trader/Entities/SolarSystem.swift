@@ -61,7 +61,7 @@ class SolarSystem: Hashable, SpaceBody {
             let temp = (x: Float.random(in: 0...Universe.BOUNDS.x), y: Float.random(in: 0...Universe.BOUNDS.y))
             var overlapping: Bool = false
             for system in systems {
-                if system.overlap(pos: temp, body: self) {
+                if system.overlap(location: temp, body: self) {
                     overlapping = true
                 }
             }

@@ -18,8 +18,8 @@ protocol SpaceBody {
 
 extension SpaceBody {
     func overlap(location: Coordinate, body: SpaceBody) -> Bool {
-        let bodyRad = body.radius
-        let bodyPos = body.pos
+        let bodyRad = body.radius!
+        let bodyPos = body.pos!
         
         let distance: Float = (powf((bodyPos.x - location.x), 2)
             + powf((bodyPos.y - location.y), 2)).squareRoot()

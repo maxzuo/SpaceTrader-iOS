@@ -55,8 +55,8 @@ class Game {
     /*
      Get the current planet from universe
      */
-    public func getCurrentPlanet() {
-        return self.universe.currentPlanet
+    public func getCurrentPlanet() -> Planet? {
+        return Universe.currentPlanet
     }
     
 }

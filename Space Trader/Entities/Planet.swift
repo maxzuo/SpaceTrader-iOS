@@ -11,9 +11,9 @@ import CoreData
 
 class Planet: Hashable, SpaceBody {
     
-    public private(set) var pos: Coordinate!
-    public private(set) var name: String!
-    public private(set) var radius: Float!
+    public private(set) var pos: Coordinate! = (x: 0, y: 0)
+    public private(set) var name: String! = ""
+    public private(set) var radius: Float! = 0.0
     
     public private(set) var techLevel: TechLevel
     public private(set) var resourceLevel: ResourceLevel
@@ -52,7 +52,7 @@ class Planet: Hashable, SpaceBody {
         var name: String? = nil
         while (name == nil) {
             if (Planet.AVAILABLE_PLANET_NAMES.isEmpty) {
-                return;
+//                return;
             }
             if let temp: String = Planet.AVAILABLE_PLANET_NAMES.popLast() {
                 if (!Planet.USED_PLANET_NAMES.contains(temp)) {
@@ -93,6 +93,10 @@ class Planet: Hashable, SpaceBody {
          initializeInventory();
          */
         var locationSet: Bool = false
+        
+        self.techLevel = TECHLEVELS[Int.random(in: 0...(TECHLEVELS.count - 1))]
+        self.resourceLevel = RESOURCELEVELS[Int.random(in: 0...(RESOURCELEVELS.count - 1))]
+        
         while (!locationSet) {
             
             let x: Float = ((Bool.random()) ? -1 : 1) * (Float.random(in:0...(SolarSystem.BOUNDS.x/2 - sunSize/2)) + sunSize/2) + SolarSystem.BOUNDS.x / 2
@@ -101,7 +105,7 @@ class Planet: Hashable, SpaceBody {
             let temp: Coordinate = (x: x, y: y)
             var overlapping: Bool = false
             for (_, planet) in planets.enumerated() {
-                if (overlap(location: temp, body: planet)) {
+                if (overlap(location: temp, body: planet) == true) {
                     overlapping = true
                     break
                 }
@@ -115,8 +119,7 @@ class Planet: Hashable, SpaceBody {
             
         }
         
-        self.techLevel = TECHLEVELS[Int.random(in: 0...(TECHLEVELS.count - 1))]
-        self.resourceLevel = RESOURCELEVELS[Int.random(in: 0...(RESOURCELEVELS.count - 1))]
+        
     }
     
     public init (name: String, pos: Coordinate, techLevel: TechLevel, resourceLevel: ResourceLevel, radius: Float, solarSystem: SolarSystem) {
