@@ -8,7 +8,7 @@
 
 import Foundation
 
-typealias Coordinate = (x: Float, y: Float)
+public typealias Coordinate = (x: Float, y: Float)
 
 class Universe {
     

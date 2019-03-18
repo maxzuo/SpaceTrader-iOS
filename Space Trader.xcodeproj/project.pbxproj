@@ -28,6 +28,8 @@
 		A4199EA4222FF8300099928F /* Space_TraderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4199EA3222FF8300099928F /* Space_TraderUITests.swift */; };
 		A486BD4422404889001CA731 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = A486BD4322404889001CA731 /* Event.swift */; };
 		A486BD4622404A14001CA731 /* Good.swift in Sources */ = {isa = PBXBuildFile; fileRef = A486BD4522404A14001CA731 /* Good.swift */; };
+		A486BD48224056B2001CA731 /* Ship.swift in Sources */ = {isa = PBXBuildFile; fileRef = A486BD47224056B2001CA731 /* Ship.swift */; };
+		A486BD4A22405E0D001CA731 /* ShipType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A486BD4922405E0D001CA731 /* ShipType.swift */; };
 		A4CCDB632232482A00546068 /* SpaceBody.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CCDB622232482A00546068 /* SpaceBody.swift */; };
 		A4CCDB6522324D0000546068 /* TechLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CCDB6422324D0000546068 /* TechLevel.swift */; };
 		A4CCDB6722324F3100546068 /* ResourceLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CCDB6622324F3100546068 /* ResourceLevel.swift */; };
@@ -81,6 +83,8 @@
 		A4199EA5222FF8300099928F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A486BD4322404889001CA731 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		A486BD4522404A14001CA731 /* Good.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Good.swift; sourceTree = "<group>"; };
+		A486BD47224056B2001CA731 /* Ship.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ship.swift; sourceTree = "<group>"; };
+		A486BD4922405E0D001CA731 /* ShipType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShipType.swift; sourceTree = "<group>"; };
 		A4CCDB622232482A00546068 /* SpaceBody.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceBody.swift; sourceTree = "<group>"; };
 		A4CCDB6422324D0000546068 /* TechLevel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechLevel.swift; sourceTree = "<group>"; };
 		A4CCDB6622324F3100546068 /* ResourceLevel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourceLevel.swift; sourceTree = "<group>"; };
@@ -143,6 +147,8 @@
 				A4CCDB6422324D0000546068 /* TechLevel.swift */,
 				A408A2EA2230567D00C913D1 /* Player.swift */,
 				A486BD4522404A14001CA731 /* Good.swift */,
+				A486BD47224056B2001CA731 /* Ship.swift */,
+				A486BD4922405E0D001CA731 /* ShipType.swift */,
 				A486BD4322404889001CA731 /* Event.swift */,
 			);
 			path = Entities;
@@ -495,6 +501,7 @@
 				A486BD4422404889001CA731 /* Event.swift in Sources */,
 				A408A2F12230615000C913D1 /* Sun.swift in Sources */,
 				A4CCDB632232482A00546068 /* SpaceBody.swift in Sources */,
+				A486BD4A22405E0D001CA731 /* ShipType.swift in Sources */,
 				A4199E89222FF82D0099928F /* Space_Trader.xcdatamodeld in Sources */,
 				A408A2EB2230567D00C913D1 /* Player.swift in Sources */,
 				A4CCDB6522324D0000546068 /* TechLevel.swift in Sources */,
@@ -502,6 +509,7 @@
 				A4199E81222FF82D0099928F /* AppDelegate.swift in Sources */,
 				A408A2E22230055D00C913D1 /* Model.swift in Sources */,
 				A408A2ED22305D8600C913D1 /* SolarSystem.swift in Sources */,
+				A486BD48224056B2001CA731 /* Ship.swift in Sources */,
 				A486BD4622404A14001CA731 /* Good.swift in Sources */,
 				A408A2EF22305ED700C913D1 /* Planet.swift in Sources */,
 			);

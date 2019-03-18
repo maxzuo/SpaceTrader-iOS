@@ -8,7 +8,7 @@
 
 import Foundation
 
-public class Good {
+public class Good: Hashable {
     
     public static let WATER: Good = Good(mtlp: 0, mtlu: 0, ttp: 2, basePrice: 30, ipl: 3, variance: 4, ie: Event.drought, cheapCond: ResourceLevel.LOTSOFWATER, expensiveCond: ResourceLevel.DESERT, mtl: 30, mth: 50)
     public static let FURS: Good = Good(mtlp: 0, mtlu: 0, ttp: 0, basePrice: 250, ipl: 10, variance: 10, ie: Event.cold, cheapCond: ResourceLevel.RICHFAUNA, expensiveCond: ResourceLevel.LIFELESS, mtl: 230, mth: 280)
@@ -35,6 +35,16 @@ public class Good {
     public let mtl: Int
     public let mth: Int
     
+    public var hashValue: Int {
+        get {
+            return mtlp + mtlu + ttp + basePrice + ipl + variance + mtl + mth
+        }
+    }
+    
+    public static func == (lhs: Good, rhs: Good) -> Bool {
+        return lhs.hashValue == rhs.hashValue
+    }
+    
     private init(mtlp: Int, mtlu: Int, ttp: Int, basePrice: Int, ipl: Int, variance: Int,
                  ie: Event, cheapCond: ResourceLevel?, expensiveCond: ResourceLevel?, mtl: Int, mth: Int) {
         self.mtlp = mtlp
@@ -55,5 +65,9 @@ public class Good {
         let priceVar = (Float(basePrice) * 0.01 * Float(variance) * (Float.random(in: -1.0...1.0)))
         
         return price + Int(priceVar)
+    }
+    
+    public class func values() -> [Good] {
+        return [Good.WATER, Good.FURS, Good.FOOD, Good.ORE, Good.GAMES, Good.FIREARMS, Good.MEDICINE, Good.MACHINES, Good.NARCOTICS, Good.ROBOTS]
     }
 }
