@@ -32,22 +32,6 @@ class Planet: Hashable, SpaceBody {
     }
     
     public init (sunSize: Float, planets: Set<Planet>, solarSystem: SolarSystem) {
-        // Get name from the list of available planet names. This was randomized on start up, so everything should be ok.
-        // Removes a name from the list to ensure that AVAILABLE_PLANET_NAMES will never have anything from USED_PLANET_NAMES.
-//        this.solarSystem = solarSystem;
-//        name = null;
-//        while (name == null) {
-//            Log.d("pnames", String.valueOf(AVAILABLE_PLANET_NAMES.size()));
-//            if (AVAILABLE_PLANET_NAMES.isEmpty()) {
-//                throw new RuntimeException("App does not handle when AVAILABLE_PLANET_NAMES becomes empty");
-//            }
-//            Log.d("initialization", "making planets: inside Planet()");
-//            String temp = AVAILABLE_PLANET_NAMES.pop();
-//            if (!USED_PLANET_NAMES.contains(temp)) {
-//                name = temp;
-//                break;
-//            }
-//        }
         self.solarSystem = solarSystem;
         var name: String? = nil
         while (name == nil) {
@@ -66,32 +50,6 @@ class Planet: Hashable, SpaceBody {
         }
         
         self.radius = Float.random(in: 1...8)
-        /*
-         while (location == null) {
-             double x = ((rand.nextBoolean() ? -1 : 1) * (Math.random() * (SolarSystem.BOUNDS.getY() / 2 - sunSize / 2)) + sunSize/2) + SolarSystem.BOUNDS.getY() / 2;
-             double y = ((rand.nextBoolean() ? -1 : 1) * (Math.random() * (SolarSystem.BOUNDS.getY() / 2 - sunSize / 2)) + sunSize/2) + SolarSystem.BOUNDS.getY() / 2;
-             //            location = new Coordinate(x, y);
-         
-             Coordinate temp = new Coordinate(x, y);
-             boolean overlapping = false;
-             for (Planet planet: planets) {
-                 if (overlap(temp, planet)) {
-                     overlapping = true;
-                     break;
-                 }
-             }
-             if (!overlapping) this.location = temp;
-                 else if (radius > 1) {
-                 radius *= 0.9;      //decrease size of radius to decrease future chance of overlapping.
-             }
-         }
-         
-         
-         techLevel = TechLevel.values()[(int) Math.random() * 12];
-         
-         resourceLevel = ResourceLevel.values()[(int) (Math.random() * 12)];
-         initializeInventory();
-         */
         var locationSet: Bool = false
         
         self.techLevel = TECHLEVELS[Int.random(in: 0...(TECHLEVELS.count - 1))]
@@ -119,7 +77,7 @@ class Planet: Hashable, SpaceBody {
             
         }
         
-        
+        // Still need to initialize the inventory
     }
     
     public init (name: String, pos: Coordinate, techLevel: TechLevel, resourceLevel: ResourceLevel, radius: Float, solarSystem: SolarSystem) {
