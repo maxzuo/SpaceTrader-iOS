@@ -12,8 +12,8 @@ public typealias Coordinate = (x: Float, y: Float)
 
 class Universe {
     
-    public private(set) var solarSystems: Set<SolarSystem>
-    public static var BOUNDS: Coordinate = (150, 100)
+    public private(set) var solarSystems: Set<SolarSystem> = Set()
+    public static let BOUNDS: Coordinate = (150, 100)
     public static var currentPlanet: Planet?
     
     public init() {

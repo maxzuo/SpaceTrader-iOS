@@ -8,6 +8,8 @@
 
 import UIKit
 import CoreData
+import Firebase
+import FirebaseAuth
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -17,7 +19,41 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        FirebaseApp.configure()
+        
         initializeAvailablePlanetNames()
+        
+        var ref: DatabaseReference!
+        
+        ref = Database.database().reference()
+        
+        self.window = UIWindow(frame: UIScreen.main.bounds)
+        
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        
+        let universeViewController = storyboard.instantiateViewController(withIdentifier: "UniverseVieWController")
+        let configurationViewController = storyboard.instantiateViewController(withIdentifier: "ConfigurationViewController")
+        
+//        do {
+//            var mAuth = Auth.auth().addStateDidChangeListener { (auth, <#User?#>) in
+//                <#code#>
+//            }
+//        } catch {
+//
+//        }
+//        if let ref.child()
+        let defaults = UserDefaults.standard
+        if let uid = defaults.object(forKey: "uid") {
+            //sign in user
+            self.window?.rootViewController = universeViewController
+            self.window?.makeKeyAndVisible()
+        } else if false {
+            // check local version of the
+        } else {
+            self.window?.rootViewController = configurationViewController
+            self.window?.makeKeyAndVisible()
+        }
         
         return true
     }
